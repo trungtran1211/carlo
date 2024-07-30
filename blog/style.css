@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: climate;
+    src: url("../font/climate.woff2");
+}
+@font-face {
+    font-family: dmmono;
+    src: url("../font/dmmono.woff2");
+}
+@font-face {
+    font-family: generel;
+    src: url("../font/generel.woff2");
+}
+@font-face {
+    font-family: inter;
+    src: url("../font/inter.woff2");
+}
+@font-face {
+    font-family: satori;
+    src: url("../font/satori.woff2");
+}
+@font-face {
+    font-family: tswist;
+    src: url("../font/tswist.woff2");
+}
+@font-face {
+    font-family: font2;
+    src: url("../font/font2.woff2");
+}
+@font-face {
+    font-family: font3;
+    src: url("../font/font3.woff2");
+}
+
+:root {
+    --climate: climate;
+    --dmmono: dmmono;
+    --font2: font2;
+    --font3: font3;
+    --generel: generel;
+    --inter: inter;
+    --satori: satori;
+    --tswist: tswist;
+    --yellow: #ffce21;
+    --blue: #1d2bff;
+    --white: #ffffff;
+    --black: #000000;
+    --font: "Grandstander", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: var(--black);
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 180px;
+    font-family: var(--tswist);
+    color: white;
+    margin-bottom: 100px;
+}
+.blog-item {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    gap: 40px;
+}
+.blog-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.title {
+    font-family: var(--climate);
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+.day {
+    color: rgb(153, 153, 153);
+    font-family: var(--satori);
+
+}
+.blog-content {
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 100px;
+        font-family: var(--tswist);
+        color: white;
+        margin-bottom: 100px;
+    }
+}

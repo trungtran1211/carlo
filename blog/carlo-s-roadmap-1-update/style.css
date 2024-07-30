@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family: climate;
+    src: url("../../font/climate.woff2");
+}
+@font-face {
+    font-family: dmmono;
+    src: url("../../font/dmmono.woff2");
+}
+@font-face {
+    font-family: generel;
+    src: url("../../font/generel.woff2");
+}
+@font-face {
+    font-family: inter;
+    src: url("../../font/inter.woff2");
+}
+@font-face {
+    font-family: satori;
+    src: url("../../font/satori.woff2");
+}
+@font-face {
+    font-family: tswist;
+    src: url("../../font/tswist.woff2");
+}
+@font-face {
+    font-family: font2;
+    src: url("../../font/font2.woff2");
+}
+
+:root {
+    --climate: climate;
+    --dmmono: dmmono;
+    --font2: font2;
+    --font3: font3;
+    --generel: generel;
+    --inter: inter;
+    --satori: satori;
+    --tswist: tswist;
+    --yellow: #ffce21;
+    --blue: #1d2bff;
+    --white: #ffffff;
+    --black: #000000;
+    --font: "Grandstander", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: var(--black);
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.btn-home {
+    text-align: center;
+}
+.btn-home a {
+    padding: 15px;
+    color: var(--white);
+    font-family: var(--climate);
+    border: 1px solid #222222;
+    border-radius: 15px;
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+.box-content {
+    padding: 0 20px;
+}
+.box-content h1 {
+    font-family: var(--climate);
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.day {
+    color: rgb(153, 153, 153);
+    font-family: var(--satori);
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.banner img {
+    height: 486px;
+    margin-bottom: 40px;
+    object-fit: cover;
+}
+.content {
+    font-family: var(--satori);
+    font-size: 16px;
+    color: var(--white);
+    margin-bottom: 200px;
+    line-height: 25px;
+}
+
+.content span {
+    font-family: var(--climate);
+    font-size: 22px;
+}
